@@ -20,9 +20,12 @@ Bitte versuche als Übung alles in Markdown zu beantworten. Hier ist ein [Cheats
  * das Schlüsselwort hierfür ist *new* 
  MeinTier neuesTier = new MeinTier();
 5. Was bedeutet das Schlüsselwort `static` und wo kann es überall verwendet werden?
- * static bedeutet *statisch* und steht im Gegensatz zu dynamischen Programmen
- static wird zB bei Methoden verwendet, wie hier bei der Main: public static void main(String [] args){} -> kann aufgerufen werden, ohne davor ein Objekt erzeugt zu haben
- aber auch Variablen können static sein. 
+ *  *static* statisch. Existiert ohne an ein Objekt gebunden zu sein.  
+ *  *static* wird zB bei Methoden verwendet, wie hier bei der Main: public static void main(String [] args){} -> kann aufgerufen werden, ohne davor ein Objekt erzeugt zu haben
+ *  aber auch Variablen können static sein. 
+ *  statische Variablen/Methoden existieren also unabhängig von einem Objekt - sie werden über die Klasse und nicht über ein konkretes Objekt aufgerufen.
+ *  eine statische Variable wird nur einmal angelegt -> sie kann von allen Objekten der Klasse aufgerufen werden, 
+ *  Änderungen an der statischen Variable wirken sich auf alle Instanzen der Klasse aus
 6. Wozu dient die Vererbung?
  * Ich kann eine Super Klasse anlegen, meine Sub Klassen erben dann die Eigenschaften der Super Klasse
  zB.: Überklasse Auto: ein Auto besteht immer aus: *wheels* und *motor* alle meine Subklassen (zB. verschiedene
@@ -34,7 +37,9 @@ Bitte versuche als Übung alles in Markdown zu beantworten. Hier ist ein [Cheats
 9. Was beudeted Casten und wie ist die Syntax in Java dafür?
   * beim Casten soll ein Datentyp in einen anderen umgewandelt werden
 10. Was ist der Unterschied zwischen explizieten und implizieten Typecasting?
- * 
+ *  beim implizieten Casten werden die Daten des kleineren Datentyps an den des Größeren angepasst 
+ -> erledigt der Compiler von selbst (funktioniert allerdings nur, wenn es zu keinem Datenverlust kommt)
+ *  beim explizieten Casten wird Datenverlust in Kauf genommen, hierfür wird der gewünschte neue Datentyp vom Programmierer angegeben
 11. Erkläre die folgenden Schlüsselwörter: `super`, `this`
  * 
 12. Für was dient der `instanceof` Operator. Gib ein sinnvolles Beispiel.
