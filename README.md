@@ -5,7 +5,7 @@ Bitte versuche als Übung alles in Markdown zu beantworten. Hier ist ein [Cheats
 
 1. Was ist das Ziel der Objektorientierung?
  * komplexe Programme werden in Teilprogramme zerlegt. Objekte werden in Klassen zusammengefasst. 
- durch das zerlegen in Teilprogramme
+ durch das zerlegen in Teilprogramme wird das Programm übersichtlicher. Mehrere Personen können an den Teilen arbeiten, ohne einander zu blockieren. 
 2. Gibt es OOP nur in Java?
  * Nein!
 3. Was ist der Unterschied zwischen Objekt und Klasse?
@@ -36,6 +36,11 @@ Bitte versuche als Übung alles in Markdown zu beantworten. Hier ist ein [Cheats
   * siehe Bild
 9. Was beudeted Casten und wie ist die Syntax in Java dafür?
   * beim Casten soll ein Datentyp in einen anderen umgewandelt werden
+  * zB aus einem Integer Wert kann ich einen String machen: 
+       Integer i = new integer(36);
+       String s = integer.toString();
+  * aber auch aus einem double einen int machen
+   //TODO: 
 10. Was ist der Unterschied zwischen explizieten und implizieten Typecasting?
  *  beim implizieten Casten werden die Daten des kleineren Datentyps an den des Größeren angepasst 
  -> erledigt der Compiler von selbst (funktioniert allerdings nur, wenn es zu keinem Datenverlust kommt)
