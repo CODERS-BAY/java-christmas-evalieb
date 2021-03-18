@@ -39,15 +39,22 @@ Bitte versuche als Übung alles in Markdown zu beantworten. Hier ist ein [Cheats
   * zB aus einem Integer Wert kann ich einen String machen: 
        Integer i = new integer(36);
        String s = integer.toString();
-  * aber auch aus einem double einen int machen
-   //TODO: 
+  * aber auch aus einem double einen int machen (Achtung kann zu Datenverlust führen):
+  * double myDouble = 3.61;
+  * int myInt = (int) myDouble;
+  * (myInt hätte dann den Wert 3; myDouble den Wert 3.14
 10. Was ist der Unterschied zwischen explizieten und implizieten Typecasting?
  *  beim implizieten Casten werden die Daten des kleineren Datentyps an den des Größeren angepasst 
  -> erledigt der Compiler von selbst (funktioniert allerdings nur, wenn es zu keinem Datenverlust kommt)
  *  beim explizieten Casten wird Datenverlust in Kauf genommen, hierfür wird der gewünschte neue Datentyp vom Programmierer angegeben
 11. Erkläre die folgenden Schlüsselwörter: `super`, `this`
- * 
+
+
+ * "this" bezieht sich immer auf das aktuelle Objekt 
 12. Für was dient der `instanceof` Operator. Gib ein sinnvolles Beispiel.
+ * gibt true oder false zurück. 
+ * dient zur Überprüfung ob die Variable auf ein Objekt vom Type 'Klasse' verweist. 
  * 
  ---
  Eclipse bietet auch Markdown unterstützung inklusive Preview. Für die Verwendung muss kein Plugin installiert werden.
+.
