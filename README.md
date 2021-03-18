@@ -48,13 +48,13 @@ Bitte versuche als Übung alles in Markdown zu beantworten. Hier ist ein [Cheats
  -> erledigt der Compiler von selbst (funktioniert allerdings nur, wenn es zu keinem Datenverlust kommt)
  *  beim explizieten Casten wird Datenverlust in Kauf genommen, hierfür wird der gewünschte neue Datentyp vom Programmierer angegeben
 11. Erkläre die folgenden Schlüsselwörter: `super`, `this`
-
-
- * "this" bezieht sich immer auf das aktuelle Objekt 
+ * mit "super" kann ich Methoden aus der Superklasse aufrufen
+ * (die Superklasse kennt ihre Subklassen nicht)
+ *  "this" bezieht sich immer auf das aktuelle Objekt 
 12. Für was dient der `instanceof` Operator. Gib ein sinnvolles Beispiel.
  * gibt true oder false zurück. 
- * dient zur Überprüfung ob die Variable auf ein Objekt vom Type 'Klasse' verweist. 
- * 
+ * dient zur Überprüfung ob die Variable auf ein Objekt vom Type dieser 'Klasse' verweist. 
+
  ---
  Eclipse bietet auch Markdown unterstützung inklusive Preview. Für die Verwendung muss kein Plugin installiert werden.
 .
