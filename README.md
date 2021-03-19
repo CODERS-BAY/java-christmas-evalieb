@@ -54,6 +54,21 @@ Bitte versuche als Übung alles in Markdown zu beantworten. Hier ist ein [Cheats
 12. Für was dient der `instanceof` Operator. Gib ein sinnvolles Beispiel.
  * gibt true oder false zurück. 
  * dient zur Überprüfung ob die Variable auf ein Objekt vom Type dieser 'Klasse' verweist. 
+ * Nachdem durch Upcasting oder casten die genauen Information zum Typ der Variable innerhalb der Laufzeit verloren gehen können, mit instanceof kann überprüft werden, ob sich die zu überprüfende Variable auf die abgefragte Klasse bezieht. So sollen Laufzeitfehler vermieden werden. 
+ * macht eigentlich nur Sinn, bei einem Projekt mit mehreren Klassen, aber ich hab ein tolles Bsp gefunden: 
+	
+  public void superExample (Number myNumber) {
+    public static void main(String args[]){
+
+  if (myNumber instanceof Double) {
+        System.out.println ("Deine Nummer ist ein Double!");
+    } else if (myNumber instanceof Integer) {
+        System.out.println ("Deine Nummerr ist ein Integer!"); }
+     if (myNumber instanceof Comparable) {
+         System.out.println ("Deine Nummer kommt im Comparable-Interface vor!"); 
+         }
+     }
+ }
 
  ---
  Eclipse bietet auch Markdown unterstützung inklusive Preview. Für die Verwendung muss kein Plugin installiert werden.
